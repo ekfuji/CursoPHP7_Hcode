@@ -15,7 +15,7 @@ class Endereco
 	public function __destruct()
 	{
 		var_dump("DESTRUIR");
-	}
+	},
 
 	public function __toString()
 	{
