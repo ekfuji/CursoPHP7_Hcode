@@ -24,7 +24,7 @@ class Programador extends Pessoa
 		//o método ver dados está vindo da Classe Programador
 		echo $this->nome . "<br/>";
 		echo $this->idade . "<br/>";
-		echo $this->senha . "<br/>";// não exibe pois é um atributo privado na classe Pessoa
+		echo $this->senha . "<br/>";// não exibe pois é um atributo privado da classe Pessoa
 	}
 
 
